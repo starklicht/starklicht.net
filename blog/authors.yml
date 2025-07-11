@@ -1,0 +1,15 @@
+jannis:
+  name: Jannis Jahr
+  title: Software Engineer
+  url: https://linkedin.com/in/jannis-jahr
+  image_url: https://github.com/Sinnaj94.png
+  page: true
+  socials:
+    github: Sinnaj94
+
+tobias:
+  name: Tobias Starke
+  title: Hardware Engineer
+  image_url: /img/tobias.png
+  socials:
+    cults_3d: https://cults3d.com/en/users/Starklicht/3d-models
