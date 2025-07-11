@@ -1,0 +1,6 @@
+[submodule "docs/starklicht-stm32.wiki"]
+	path = docs/microcontroller-and-hardware
+	url = https://github.com/starklicht/starklicht-stm32.wiki
+[submodule "docs/app"]
+	path = docs/app
+	url = https://github.com/starklicht/starklicht-app.wiki
