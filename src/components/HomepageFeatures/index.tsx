@@ -5,14 +5,14 @@ import styles from './styles.module.css';
 
 type FeatureItem = {
   title: string;
-  Svg: React.ComponentType<React.ComponentProps<'svg'>>;
+  Svg: string;
   description: ReactNode;
 };
 
 const FeatureList: FeatureItem[] = [
   {
     title: 'Built by the community',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: '/img/wireframe-orthogonal.png',
     description: (
       <>
         Starklicht is an open-source project built by a passionate community of developers and enthusiasts. We welcome contributions and ideas to make it even better!
@@ -21,7 +21,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Open Source',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: '/img/wireframe-top.png',
     description: (
       <>
         Starklicht is fully open source (GPL-3.0), allowing anyone to inspect, modify, and contribute to the codebase. Join us in building a brighter future!
@@ -30,7 +30,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Cheap and Affordable',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: '/img/wireframe-left.png',
     description: (
       <>
         Starklicht is designed to be cost-effective, making it accessible to everyone. Enjoy high-quality lighting solutions without breaking the bank! One device costs around 150€.
@@ -42,8 +42,8 @@ const FeatureList: FeatureItem[] = [
 function Feature({title, Svg, description}: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+      <div className="text--center" style={{display: 'flex', justifyContent: 'center', alignItems: 'center', height: '400px'}}>
+        <img src={Svg} role="img" />
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
