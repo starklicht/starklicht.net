@@ -8,7 +8,7 @@ sidebar_position: 1
 
 This is the Wiki for the `Hardware` and `Microcontroller`. It will be updated with _Electronic Schematics_ and _3D Printeable_ files in the following days. Stay tuned!
 
-[Visit the App Repo](github.com/starklicht/starklicht-app)
+[Visit the App Repo](https://github.com/starklicht/starklicht-app)
 
 ## About the Project
 
