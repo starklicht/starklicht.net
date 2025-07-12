@@ -1,0 +1,109 @@
+.contactCard {
+  max-width: 600px;
+  margin: 2rem auto;
+  background: var(--ifm-background-surface-color, #fff);
+  border-radius: 1rem;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  padding: 2.5rem 2rem 2.5rem 2rem;
+  box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+  .contactCard {
+    padding: 1.2rem 0.5rem 1.5rem 0.5rem;
+  }
+}
+
+.contactForm label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.contactForm input,
+.contactForm textarea {
+  width: 100%;
+  margin-bottom: 1.2rem;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--ifm-color-emphasis-200, #eaeaea);
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  background: var(--ifm-background-color, #f9f9f9);
+  transition: border 0.2s;
+  box-sizing: border-box;
+}
+
+.contactForm input:focus,
+.contactForm textarea:focus {
+  border: 1.5px solid var(--ifm-color-primary, #2e8555);
+  outline: none;
+}
+
+.contactForm button {
+  width: 100%;
+  padding: 0.8rem 0;
+  font-size: 1.1rem;
+  border-radius: 0.5rem;
+  background: var(--ifm-color-primary, #2e8555);
+  color: #fff;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.2s;
+  margin-top: 0.5rem;
+}
+
+.contactForm button:hover {
+  background: var(--ifm-color-primary-dark, #29784c);
+}
+
+.resultMessage {
+  display: block;
+  margin-top: 1rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.resultMessage.success {
+  color: var(--ifm-color-success, #2ecc40);
+}
+
+.resultMessage.error {
+  color: var(--ifm-color-danger, #e74c3c);
+}
+
+.checkboxRow {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  margin-bottom: 1.2rem;
+  font-size: 0.98rem;
+}
+
+.checkboxRow input[type="checkbox"] {
+  margin-top: 0.2em;
+  flex-shrink: 0;
+  width: 1.1em;
+  height: 1.1em;
+  accent-color: var(--ifm-color-primary, #2e8555);
+}
+
+.checkboxLabel {
+  font-weight: 400;
+  line-height: 1.5;
+  cursor: pointer;
+  user-select: text;
+  margin-bottom: 0;
+}
+
+.checkboxLabel a {
+  color: var(--ifm-color-primary, #2e8555);
+  text-decoration: underline;
+}
+
+.privacyNote {
+  margin-top: 0.5rem;
+  font-size: 0.92rem;
+  color: var(--ifm-color-emphasis-600, #666);
+  text-align: left;
+}
