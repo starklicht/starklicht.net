@@ -12,7 +12,7 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: 'Built by the community',
-    Svg: '/img/wireframe-orthogonal.png',
+    Svg: '/img/blau.png',
     description: (
       <>
         Starklicht is an open-source project built by a passionate community of developers and enthusiasts. We welcome contributions and ideas to make it even better!
@@ -21,7 +21,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Open Source',
-    Svg: '/img/wireframe-top.png',
+    Svg: '/img/starklicht-back.png',
     description: (
       <>
         Starklicht is fully open source (GPL-3.0), allowing anyone to inspect, modify, and contribute to the codebase. Join us in building a brighter future!
@@ -30,7 +30,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Cheap and Affordable',
-    Svg: '/img/wireframe-left.png',
+    Svg: '/img/green.png',
     description: (
       <>
         Starklicht is designed to be cost-effective, making it accessible to everyone. Enjoy high-quality lighting solutions without breaking the bank! One device costs around 150€.
