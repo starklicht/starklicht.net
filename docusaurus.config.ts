@@ -124,8 +124,16 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/starklicht',
             },
+            {
+              label: 'Privacy Policy',
+              href: '/privacy',
+            },
+            {
+              label: 'Imprint',
+              href: '/imprint',
+            }
           ],
         },
       ],
